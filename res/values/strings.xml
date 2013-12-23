@@ -4,5 +4,12 @@
     <string name="app_name">GunSlingers</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="help">Help</string>
+    <string name="play">Play</string>
+    <string name="quit">Quit</string>
+    <string name="title_activity_help">Help</string>
+    <string name="help_content">This is some long and extensive help content</string>
+    <string name="title_activity_game">FunSlingers</string>
 
 </resources>
