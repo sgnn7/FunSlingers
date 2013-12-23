@@ -4,16 +4,12 @@ import com.redwrench.android.framework.FileOps;
 import com.redwrench.android.framework.Screen;
 import com.redwrench.android.framework.implementation.DroidGame;
 
+public class MainGame extends DroidGame {
 
+	// TODO Implement Loading Screen Class
 
-
-
-public class MainGame extends DroidGame{
-	
-	//TODO Implement Loading Screen Class
-	
 	@Override
-	public Screen getStartScreen(){
+	public Screen getStartScreen() {
 		return new LoadingScreen(this);
 	}
 
@@ -22,7 +18,5 @@ public class MainGame extends DroidGame{
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	
 
 }
